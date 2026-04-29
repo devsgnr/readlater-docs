@@ -74,7 +74,8 @@
     }
   },
   "appearance": {
-    "default": "light"
+    "default": "light",
+    "strict": true
   },
   "background": {
     "image": "/images/anime-bg.png"
