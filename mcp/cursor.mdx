@@ -1,0 +1,57 @@
+---
+title: "Cursor"
+---
+
+Bring your Readlater reading library into your Cursor workflow via MCP. Once connected, you can save articles, search your saved texts, and organize collections without leaving your editor.
+
+**Prerequisites**
+
+- A Readlater account. Don't have one? Sign up at [readlater.fyi](https://readlater.fyi)
+- Cursor version 0.45 or later
+
+**Setup**
+
+1. Open Cursor and go to **Settings**
+2. Navigate to **Tools & Integrations** then select **MCP**
+3. Click **Add new MCP server**
+4. Fill in the following:
+   - **Name:** Readlater
+   - **Type:** URL
+   - **URL:** `https://app.readlater.fyi/api/mcp`
+5. Click **Save**
+6. Follow the OAuth prompt to log in and authorise Readlater
+
+Alternatively, you can add it manually to your `~/.cursor/mcp.json` file:
+
+```json mcp.json
+{
+  "mcpServers": {
+    "readlater": {
+      "type": "url",
+      "url": "https://app.readlater.fyi/api/mcp"
+    }
+  }
+}
+```
+
+Restart Cursor after saving the file, then authenticate via the OAuth prompt.
+
+**Authentication**
+
+Readlater uses OAuth 2.1 to authorise the MCP connection securely. You'll be prompted to log in with your Readlater account the first time you connect. No API keys or manual credentials are required.
+
+**What you can do once connected**
+
+Once the connection is live, you can ask Cursor's AI to:
+
+- Save an article or URL to your Readlater library
+- Search your saved texts by topic or meaning
+- Add a saved text to a specific collection
+
+---
+
+**Troubleshooting**
+
+- **Readlater not showing up in Cursor?** Make sure you're on Cursor 0.45 or later and that MCP is enabled in your settings.
+- **Authentication failed?** Try disconnecting and reconnecting the integration, then authorise again.
+- **Running out of MCP credits?** If you're on the free plan, and running out of credits, check your usage in your Readlater dashboard at [app.readlater.fyi](https://app.readlater.fyi).
