@@ -18,33 +18,29 @@
             "pages": [
               "index"
             ]
+          }
+        ]
+      },
+      {
+        "tab": "Model Context Protocol",
+        "groups": [
+          {
+            "group": "Getting started",
+            "icon": "folder",
+            "pages": [
+              "mcp"
+            ]
           },
           {
-            "group": "Model Context Protocol",
-            "icon": "brain",
+            "group": "Clients",
             "pages": [
-              "mcp/index",
-              "mcp/claude",
-              "mcp/cursor"
+              "mcp-claude",
+              "mcp-cursor"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": "/images/48x48.svg",
   "navbar": {
