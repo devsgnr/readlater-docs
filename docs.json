@@ -16,18 +16,18 @@
           {
             "group": "Getting started",
             "pages": [
-              "index"
-            ]
-          },
-          {
-            "group": "Model Context Protocol",
-            "pages": [
-              "model-context-protocol",
+              "index",
               {
-                "group": "Clients",
+                "group": "Model Context Protocol",
                 "pages": [
-                  "mcp-claude",
-                  "mcp-cursor"
+                  "model-context-protocol",
+                  {
+                    "group": "Clients",
+                    "pages": [
+                      "mcp-claude",
+                      "mcp-cursor"
+                    ]
+                  }
                 ]
               }
             ]
@@ -79,5 +79,9 @@
     "weight": 400,
     "format": "woff2"
   },
-  "description": "Social Bookmarking for Readers. Resurface what matters in a clean, meaningful way—and organize it into collections when needed."
+  "description": "Social Bookmarking for Readers. Resurface what matters in a clean, meaningful way—and organize it into collections when needed.",
+  "thumbnails": {
+    "appearance": "dark",
+    "background": "/images/og-image-home.png"
+  }
 }
