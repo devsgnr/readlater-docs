@@ -12,22 +12,17 @@
     "tabs": [
       {
         "tab": "Guides",
-        "groups": [
+        "pages": [
+          "index",
           {
-            "group": "Getting started",
+            "group": "Model Context Protocol",
             "pages": [
-              "index",
+              "model-context-protocol",
               {
-                "group": "Model Context Protocol",
+                "group": "Clients",
                 "pages": [
-                  "model-context-protocol",
-                  {
-                    "group": "Clients",
-                    "pages": [
-                      "mcp-claude",
-                      "mcp-cursor"
-                    ]
-                  }
+                  "mcp-claude",
+                  "mcp-cursor"
                 ]
               }
             ]
