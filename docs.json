@@ -18,24 +18,24 @@
             "pages": [
               "index"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Model Context Protocol",
-        "groups": [
-          {
-            "group": "Getting started",
-            "icon": "folder",
-            "pages": [
-              "mcp"
-            ]
           },
           {
-            "group": "Clients",
+            "group": "Model Context Protocol",
             "pages": [
-              "mcp-claude",
-              "mcp-cursor"
+              {
+                "group": "Getting started",
+                "icon": "folder",
+                "pages": [
+                  "mcp"
+                ]
+              },
+              {
+                "group": "Clients",
+                "pages": [
+                  "mcp-claude",
+                  "mcp-cursor"
+                ]
+              }
             ]
           }
         ]
