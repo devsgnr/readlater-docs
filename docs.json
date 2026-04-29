@@ -78,7 +78,7 @@
     "strict": true
   },
   "background": {
-    "image": "/images/anime-bg.png"
+    "image": ""
   },
   "fonts": {
     "family": "Inter",
