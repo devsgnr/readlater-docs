@@ -22,7 +22,7 @@
           {
             "group": "Model Context Protocol",
             "pages": [
-              "mcp",
+              "model-context-protocol",
               {
                 "group": "Clients",
                 "pages": [
