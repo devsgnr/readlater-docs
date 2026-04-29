@@ -22,13 +22,7 @@
           {
             "group": "Model Context Protocol",
             "pages": [
-              {
-                "group": "Getting started",
-                "icon": "folder",
-                "pages": [
-                  "mcp"
-                ]
-              },
+              "mcp",
               {
                 "group": "Clients",
                 "pages": [
